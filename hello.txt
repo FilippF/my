@@ -1,4 +1,5 @@
 Hello GIT
  Hello
 My name Filipp
-Add new line
+Add new line#1
+Add new line#2
