@@ -2,8 +2,12 @@ XHello GIT
  Hello
 <<<<<<< HEAD
 My name Filipp
+<<<<<<< HEAD
 Add new line#1
 Add new line#2
 =======
 My name Filipp
 >>>>>>> parent of d85ed77... Test status
+=======
+Add new line
+>>>>>>> parent of aa1ef87... New commit
