@@ -1,0 +1,20 @@
+   КОМАНДА ПРОСМОТРА ИСТОРИИ 
+
+1. Команда просмотра истории git log
+2. Нажимаем Enter
+3. Команда выхода из commit нажимае q 
+4. Команда просмотра истории git log --pretty=oneline каждый commit в одну линию
+5. Команда просмотра истории git log --pretty=oneline --max-count=3 каждый commit в одну линию максимально "3"
+6. Команда просмотра истории git log --pretty=oneline --all каждый commit в одну линию "все commit"
+7. Команда просмотра истории git log --pretty=oneline --author="Test User" каждый commit в одну линию "все commit автора "Test User"
+
+   КОМАНДА ПРОСМОТРА ИСТОРИИ В ЗАДАННОМ ФОРМАТЕ
+
+8. Команда просмотра истории git log --pretty=format:"%h - %s : %ad [ %an ]" 
+     %h   - сокращённый хеш commit
+     %s   - название commit
+     %ad  - дата создания commit
+     %an  - автор commit
+9. Команда просмотра истории git log --pretty=format:"%h - %s : %ad [ %an ]" --data=short вывод в требуемом формате с удобночитаемой датой 
+
+10.Команда просмотра истории git log --pretty=format:"%h %ad | %s%d " --data=short вывод в требуемом формате с удобночитаемой датой 
